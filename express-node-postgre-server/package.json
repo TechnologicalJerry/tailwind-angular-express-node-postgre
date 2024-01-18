@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TechnologicalJerry/tailwind-angular-express-node-postgre/issues"
   },
-  "homepage": "https://github.com/TechnologicalJerry/tailwind-angular-express-node-postgre#readme"
+  "homepage": "https://github.com/TechnologicalJerry/tailwind-angular-express-node-postgre#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
 }
