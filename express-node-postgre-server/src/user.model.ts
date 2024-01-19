@@ -9,4 +9,10 @@ export default class User extends Model {
     field: "id",
   })
   id?: number;
+
+  @Column({
+    type: DataType.STRING(255),
+    field: "username"
+  })
+  title?: string;
 }
