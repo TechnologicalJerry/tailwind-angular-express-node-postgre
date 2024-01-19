@@ -33,4 +33,5 @@ export default class User extends Model {
     field: "email",
   })
   email?: string;
+  
 }
