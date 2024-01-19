@@ -14,5 +14,11 @@ export default class User extends Model {
     type: DataType.STRING(255),
     field: "username",
   })
-  title?: string;
+  username?: string;
+
+  @Column({
+    type: DataType.STRING(255),
+    field: "description"
+  })
+  description?: string;
 }
