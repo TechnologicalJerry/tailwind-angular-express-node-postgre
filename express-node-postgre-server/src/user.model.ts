@@ -12,7 +12,7 @@ export default class User extends Model {
 
   @Column({
     type: DataType.STRING(255),
-    field: "username"
+    field: "username",
   })
   title?: string;
 }
