@@ -1,4 +1,5 @@
 import express, { Application } from "express";
+import Server from "./src/index";
 
 const app: Application = express();
 const server: Server = new Server(app);
