@@ -1,5 +1,3 @@
-export const config = {
-   
-  };
-  
-  export const dialect = "postgres";
+export const config = {};
+
+export const dialect = "postgres";
